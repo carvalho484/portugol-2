@@ -14,8 +14,8 @@ programa {
     }senao {
       delta = (b * b) - (4 * a * c)
       se (delta > 0) {
-        raiz1 = (-b + mat.raizq(delta)) / (2 * a)
-        raiz2 = (-b - mat.raizq(delta)) / (2 * a)
+        raiz1 = (-b + mat.raiz(delta,2)) / (2 * a)
+        raiz2 = (-b - mat.raiz(delta,2)) / (2 * a)
         escreva ("Possui duas raizes de segundo grau")
       }senao se (delta == 0) {
         raiz1 = -b / (2 * a)
