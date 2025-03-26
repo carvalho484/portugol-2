@@ -21,7 +21,7 @@ programa {
         raiz1 = -b / (2 * a)
         escreva ("Possui uma raiz de segundo grau")
       }senao {
-        escreva ("nao possui uma raiz de segundo grau")
+        escreva ("Não possui uma raiz de segundo grau")
       }
     }
   }
