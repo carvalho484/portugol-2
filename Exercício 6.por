@@ -16,3 +16,4 @@ programa {
     }
   }
 }
+// E um program capaz de ler 3 numeros a, b, c, e imprimir 1 caso a>=b>=c, -1 caso c>=b>=a, ou 0 se nenhuma das duas condições for atendida.
