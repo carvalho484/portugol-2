@@ -1,7 +1,7 @@
 programa {
   inclua biblioteca Matematica --> mat
   funcao inicio() {
-    real a, b, c, raiz1, delta, raiz2
+    real a, b, c, delta
     escreva ("Digite o valor de (a): ")
     leia (a)
     escreva ("Digite o valor de (b): ")
@@ -14,11 +14,8 @@ programa {
     }senao {
       delta = (b * b) - (4 * a * c)
       se (delta > 0) {
-        raiz1 = (-b + mat.raiz(delta,2)) / (2 * a)
-        raiz2 = (-b - mat.raiz(delta,2)) / (2 * a)
         escreva ("Possui duas raizes de segundo grau")
       }senao se (delta == 0) {
-        raiz1 = -b / (2 * a)
         escreva ("Possui uma raiz de segundo grau")
       }senao {
         escreva ("Não possui uma raiz de segundo grau")
