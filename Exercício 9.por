@@ -24,4 +24,4 @@ programa {
     }
   }
 }
-// E um program capaz de de ler 3 numeros a, b, c, e imprimir as duas raizes da equação do segundo grau, se ela tem duas, uma ou nenhuma.
+// E um program capaz de de ler 3 numeros a, b, c, e vai imprimir as duas raizes da equação do segundo grau, se ela tem duas, uma ou nenhuma.
