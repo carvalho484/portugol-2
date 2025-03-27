@@ -25,3 +25,4 @@ programa {
       escreva ("O menor numero e ", menor)
   }
 }
+// E um program capaz de ler 5 numeros e imprimir o menor deles.
