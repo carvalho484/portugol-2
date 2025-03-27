@@ -15,13 +15,13 @@ programa {
     }senao se (delta > 0){
       raiz1 = (-b + mat.raiz(delta,2)) / (2 * a)
       raiz2 = (-b - mat.raiz(delta,2)) / (2 * a)
-      escreva ("Possui duas raizes")
+      escreva ("Possui duas raizes: ", raiz1, "\n")
+      escreva ("Possui duas raizes: ", raiz2)
     }senao se (delta == 0){
-      raiz1 = -b / (2 * a)
-      escreva ("Possui uma raiz")
+      escreva ("Possui uma raiz: ", raiz1)
     }senao {
       escreva ("nao possui raiz")
     }
-  }
+  }  
 }
-// E um program capaz de de ler 3 numeros a, b, c, e vai imprimir as duas raizes da equação do segundo grau, se ela tem duas, uma ou nenhuma.
+// E um program capaz de de ler 3 numeros a, b, c, e e vai imprimir as duas raizes da equação de segundo grau, se a função tem uma raiz, vai imprimir apenas essa raiz.
