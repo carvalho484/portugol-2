@@ -25,3 +25,4 @@ programa {
     escreva ("A soma do maior numero com o menor numero e ", total)
   }
 }
+// E um program capaz de ler 3 numeros e imprimir a soma do maior com o menor.
