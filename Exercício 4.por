@@ -26,3 +26,4 @@ programa {
     }
   }
 }
+// E um program capaz de ler 3 numeros a, b, c, e imprimir se esse numero tem 2,1 ou nunhuma raiz do segundo grau.
