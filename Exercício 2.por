@@ -14,3 +14,4 @@ programa {
     }
 }
 }
+// E um programa capaz de ler 2 numeros e imprimir quais são pares.
